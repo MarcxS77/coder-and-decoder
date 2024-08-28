@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo/style.css">
+    <link rel="shortcut icon" href="imagens/logo-alura.png" type="image/x-icon">
+    <title>Codificador e Decodifcador - Turma 7</title>
+</head>
+<body>
+
+
+    <main class="main_container">
+     <header class="cabecalho">
+    <img src="imagens/logo-alura.png" alt="Logo Alura">
+    <h1>Mensagens Codificadas</h1>
+</header>
+
+    <div class="container_input">
+        <div class="input">
+         <textarea id="input_texto" placeholder="Digite o seu texto aqui..."></textarea>
+         <p>Atenção: use apenas letras minúsculas e sem acento.</p>  
+
+        </div>
+
+        <div class="output">
+            <img src="imagens/pessoa.png" alt="pessoa com lupa">
+            <h2>Sua mensagem aparecerá aqui</h2>
+            <span>Digite um texto que para criptografar ou descriptografar</span>
+
+        </div>
+    </div>
+
+    <div class="buttons">
+     <div class="container_btn">
+        <button onclick="criptografar()" class="btn_criptografar">Criptografar</button>
+        <button onclick="descriptografar()" class="btn_descriptografar">Descriptografar</button>
+     </div>
+    </div>
+     
+
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+        <a href="https://github.com/MarcxS77"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://www.instagram.com/_marcosviniciiusz_/?hl=bg"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Marcos Vinicius - Turma 7</h3>
+    </footer>
+
+    <script src="interecao/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

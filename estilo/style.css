@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor_principal: #0A3871;
+    --cor_secundaria: #F3F5FC;
+}
+
+body {
+    background: var(--cor_r);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+ color: var(--cor_principal);
+}
+
+.cabecalho img{
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+}
+
+.container_input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container_input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input_texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cor_principal);
+    background: transparent;
+    box-shadow: none;
+    border-radius: 4%;
+    border: none;
+    outline: 0;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cor_principal);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+.output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cor_principal);
+}
+
+.output span {
+    font-size: 16px;
+    font-weight: 500vh;
+    text-align: center;
+}
+
+.output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container_btn button{
+    border: 2px solid var(--cor_principal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor_principal);
+    width: 150px;
+    height: 50px;
+    margin-left:4%;
+    cursor: pointer;
+}
+
+.btn_copiar {
+    border: 2px solid var(--cor_principal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor_principal);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.container_btn button:hover{
+    background-color: #0A3871;
+    color: #F3F5FC;
+    border: 2px solid #2c86f3;
+    border-radius: 9%;
+    transform: 0.5s all;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin-top: 15px;
+    background: var(--cor_principal);
+    color: var(--cor_secundaria);
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cor_secundaria);
+}
+
+.icons ion-icon:hover{
+    color: var(--cor_secundaria);
+    transform: scale(130%);
+}
